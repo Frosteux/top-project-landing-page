@@ -15,10 +15,13 @@ Build a website for The Odin Project Foundation Course.
 - Quote text : 36px light italic `#1F2937`
 
 ## Tasks
-- [ ] Create boilerplate
-- [ ] Build css and define required fonts and colors
-- [ ] Add image dir and associated images
-- [ ] Add Flex to create clear area definitions
-- [ ] Validate functionality
-- [ ] Observe how resolution affects the readability
-- [ ] Publish project and submit solution to theodinproject.com
+- [X] Create boilerplate
+- [X] Build css and define required fonts and colors
+- [X] Add image dir and associated images
+- [X] Add Flex to create clear area definitions
+- [X] Validate functionality
+- [X] Observe how resolution affects the readability
+- [X] Publish project and submit solution to theodinproject.com
+
+## Resolution changes
+- Resolution changes destroy the site. Many hard coded margins/paddings, and dimensions have caused this to fall apart when modifying the resolution. Perhaps this will be revisted whenI learn responsive design.
