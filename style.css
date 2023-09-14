@@ -58,3 +58,257 @@ picture {
     scroll-behavior: auto !important;
   }
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 1912px;
+  width: 1440px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  flex: 1;
+  text-align: right;
+}
+
+.clr-primary {
+    color: #1f2937;
+}
+
+.clr-accent {
+    color: #3882f6;
+}
+
+.clr-neutral {
+    color: #f0faf8;
+}
+
+.page-header {
+  height: 3vh;
+}
+
+.page-header-upper {
+  display: flex;
+  height: 3vh;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  background-color:#1f2937;
+  padding-top: 10px;
+}
+
+.header-logo {
+  flex: 1;
+  background-color:#1f2937;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header-nav {
+  flex: 1;
+  font-size: 18px;
+  background-color: #1f2937;
+}
+
+.page-body {
+  padding-top: 5vh;
+  display: flex;
+  height: 15vh;
+  background-color: #1f2937;
+  flex: 0;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-bottom: 300px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 220px;
+}
+
+.body-text {
+  flex: 1;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+  margin-right: 150px;
+}
+
+.body-desc {
+  flex: 1;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-right: 100px;
+}
+
+.button-container {
+  flex: 0;
+}
+
+.signup{ 
+  flex: 1;
+  width: 120px;
+  height: 35px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f0faf8;
+  border: none;
+  outline-style: none;
+  font-weight: 600;
+}
+
+.page-body-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  overflow: hidden;
+  padding-left: 1vw;
+  flex: 1;
+  
+}
+.main-info-header {
+  flex: 0;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.main-info {
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  gap: 70px;
+  justify-content: center;
+}
+
+.main-info-text {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 auto;
+  align-self: flex-start;
+  width: 140px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main-info-img-container {
+  align-self: center;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 175px;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin-bottom: 5px;
+}
+
+.main-img-one{
+  background-image: url(./img/pexels-instawalli-176851.jpg);
+}
+.main-img-two {
+  background-image: url(./img/pexels-pok-rie-4747892.jpg);
+}
+
+.main-img-three {
+  background-image: url(./img/pexels-reynaldo-brigworkz-brigantty-747101.jpg);
+}
+
+.main-img-four {
+  background-image: url(./img/pexels-sk-844813.jpg);
+}
+.page-quote {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: #e5e7eb;
+  justify-content: center;
+  padding-left: 340px;
+  padding-right: 340px;
+}
+
+.page-quote-text {
+  font-size: 36px;
+  text-align: left;
+  font-weight: 100;
+  flex: 0;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.page-quote-author {
+  flex: 0;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+.page-call-to-action {
+  display: flex;
+  height: 15vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  flex: 0;
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin-left: 220px;
+  margin-right: 300px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+}
+
+.call-to-action-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-to-action-header {
+  flex: 0;
+  font-weight: 800;
+  font-size: 24px;
+  width: 400px;
+}
+
+.call-to-action-text {
+  flex: 0;
+  width: 500px;
+}
+
+.page-footer {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-color: #1f2937;
+}
+
+.inverse {
+  border: 2px solid #f9faf8;
+}
